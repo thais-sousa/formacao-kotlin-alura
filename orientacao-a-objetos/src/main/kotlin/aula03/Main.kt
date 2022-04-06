@@ -84,5 +84,3 @@ fun testaCondicoes(saldoConta: Double) {
     }
 }
 
-
-
