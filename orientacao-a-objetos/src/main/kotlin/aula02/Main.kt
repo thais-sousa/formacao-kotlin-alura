@@ -1,3 +1,5 @@
+package aula02
+
 fun main(){
     println("Bem vinde ao ByteBank!")
 
@@ -24,24 +26,24 @@ fun main(){
 //    }
 
 
-//    for(i in 5 downTo 1){
-//
-//        if(i == 4) {
-//            continue
-//        }
-//
-//        val titular = "Thais $i"
-//        val numeroConta = 1000 + i
-//        var saldoConta = i + 0.0
-//
-//
-//        println("Titular da Conta: $titular")
-//        println("Número da Conta: $numeroConta")
-//        println("Saldo Atual da Conta: $saldoConta")
-//        println()
-//
-//        testaCondicoes(saldoConta)
-//    }
+    for(i in 5 downTo 1){
+
+        if(i == 4) {
+            continue
+        }
+
+        val titular = "Thais $i"
+        val numeroConta = 1000 + i
+        var saldoConta = i + 0.0
+
+
+        println("Titular da Conta: $titular")
+        println("Número da Conta: $numeroConta")
+        println("Saldo Atual da Conta: $saldoConta")
+        println()
+
+        testaCondicoes(saldoConta)
+    }
 }
 
 
