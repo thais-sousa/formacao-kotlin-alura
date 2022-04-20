@@ -1,6 +1,7 @@
-package aula04
+package aula05
 
 class CalculadoraBonificacao {
+
     var total: Double = 0.0
         private set
 
