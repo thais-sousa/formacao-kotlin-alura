@@ -1,15 +1,15 @@
 package aula05
-class ContaCorrente(
+
+class ContaSalario(
     titular: String,
     numero: Int
-) : ContaTransferivel(
+) : Conta(
     titular = titular,
     numero = numero
 ) {
     override fun saca(valor: Double) {
-        if(this.saldo >= valor) {
+        if(this.saldo >=  valor) {
             this.saldo -= valor
         }
     }
-
 }

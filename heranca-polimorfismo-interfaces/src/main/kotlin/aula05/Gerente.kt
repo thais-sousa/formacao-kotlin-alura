@@ -11,7 +11,6 @@ class Gerente(
     salario = salario,
     senha = senha
 ) {
-
     override val bonificacao: Double
         get() {
             return salario
