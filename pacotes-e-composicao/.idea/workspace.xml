@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f779a8a-f6c0-47e0-bc65-1e5fedf90b66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Endereco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaCorrente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaPoupanca.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaSalario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaSalario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaTransferivel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaTransferivel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaContas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaContas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaCopiaseReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaCopiaseReferencias.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28DVKdGOLVBl6M0cXjwC8eG2nFx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="br.com.thais.bytebank.modelo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.MainKt" />
+      <module name="pacotes-e-composicao" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f779a8a-f6c0-47e0-bc65-1e5fedf90b66" name="Changes" comment="" />
+      <created>1650751082053</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650751082053</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
