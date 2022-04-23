@@ -1,22 +1,40 @@
 package teste
 
-import br.com.thais.bytebank.modelo.ContaCorrente
-import br.com.thais.bytebank.modelo.ContaPoupanca
-import br.com.thais.bytebank.modelo.ContaSalario
+import br.com.thais.bytebank.modelo.*
 
 fun testaContas() {
     val contaCorrente = ContaCorrente(
-        titular = "Thais",
+        titular = Client(
+            nome = "Thais",
+            cpf = "",
+            senha = 1,
+            endereco = Endereco(
+                logradouro = "Av. Brasil"
+            )
+        ),
         numero = 1000
     )
 
+    println("titular")
+    println("Nome do Titular ${contaCorrente.titular.nome}")
+    println("CPF do Titular: ${contaCorrente.titular.cpf}")
+    println("Endereço: ${contaCorrente.titular.endereco.logradouro}")
+
     val contaPoupanca = ContaPoupanca(
-        titular = "Monteiro",
+        titular = Client(
+            nome = "Monteiro",
+            cpf = "",
+            senha = 2
+        ),
         numero = 1001
     )
 
     val contaSalario = ContaSalario(
-        titular = "Logan",
+        titular = Client(
+            "Logan",
+            cpf = "",
+            senha = 3
+        ),
         numero = 1002
     )
 

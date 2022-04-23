@@ -1,9 +1,7 @@
 package br.com.thais.bytebank.modelo
 
-import br.com.thais.bytebank.modelo.Conta
-
 abstract class ContaTransferivel(
-    titular: String,
+    titular: Client,
     numero: Int
 ) : Conta(
     titular = titular,

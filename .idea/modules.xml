@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/formacao-kotlin-alura.iml" filepath="$PROJECT_DIR$/.idea/formacao-kotlin-alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heranca-polimorfismo-interfaces/heranca-polimorfismo-interfaces.iml" filepath="$PROJECT_DIR$/heranca-polimorfismo-interfaces/heranca-polimorfismo-interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao-a-objetos/orientacao-a-objetos.iml" filepath="$PROJECT_DIR$/orientacao-a-objetos/orientacao-a-objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pacotes-e-composicao/pacotes-e-composicao.iml" filepath="$PROJECT_DIR$/pacotes-e-composicao/pacotes-e-composicao.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,7 +1,7 @@
 package br.com.thais.bytebank.modelo
 
 class ContaCorrente(
-    titular: String,
+    titular: Client,
     numero: Int
 ) : ContaTransferivel(
     titular = titular,

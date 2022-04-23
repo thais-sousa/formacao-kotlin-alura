@@ -3,7 +3,7 @@ package br.com.thais.bytebank.modelo
 import br.com.thais.bytebank.modelo.Conta
 
 class ContaSalario(
-    titular: String,
+    titular: Client,
     numero: Int
 ) : Conta(
     titular = titular,
