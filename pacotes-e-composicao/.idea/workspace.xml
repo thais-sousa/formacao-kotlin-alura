@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f779a8a-f6c0-47e0-bc65-1e5fedf90b66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Endereco.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pacotes-e-composicao/br/com/thais/bytebank/modelo/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pacotes-e-composicao/br/com/thais/bytebank/modelo/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pacotes-e-composicao/br/com/thais/bytebank/modelo/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pacotes-e-composicao/br/com/thais/bytebank/modelo/ContaCorrente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pacotes-e-composicao/br/com/thais/bytebank/modelo/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pacotes-e-composicao/br/com/thais/bytebank/modelo/ContaPoupanca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pacotes-e-composicao/teste/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pacotes-e-composicao/teste/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Client.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaCorrente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaPoupanca.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaSalario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaSalario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaTransferivel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaTransferivel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaComportamentosConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaComportamentosConta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaContas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaContas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaCopiaseReferencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/teste/testaCopiaseReferencias.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaCorrente.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/thais/bytebank/modelo/ContaPoupanca.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="br.com.thais.bytebank.modelo" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="br.com.thais.bytebank.modelo" />
     </key>
   </component>
