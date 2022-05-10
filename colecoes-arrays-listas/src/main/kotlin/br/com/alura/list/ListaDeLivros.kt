@@ -37,6 +37,8 @@ fun main() {
         )
     )
 
+    //ordenando listas
+
     livros.imprimeComMarcadores()
 
     livros.remove(livro1)
@@ -53,9 +55,18 @@ fun main() {
 
     val ordenacaoAutor = livros.sortedBy { it.autor }.imprimeComMarcadores()
 
+
+    //Filtrando listas
+
+    val titulos: List<String> = listaDeLivros
+        .filter { it.autor.startsWith("João") } // ex.: verifica se o nome do autor começa com o João
+        .sortedBy { it.anoPublicacao } //ordenando por ano de publicação
+        .map { it.titulo }
+
+    println(titulos)
 }
 
-fun List<Livro>.imprimeComMarcadores(){
+fun List<Livro>.imprimeComMarcadores() {
     val textoFormatado = this.joinToString(separator = "\n") {
         " - ${it.titulo} de ${it.autor}"
     }
