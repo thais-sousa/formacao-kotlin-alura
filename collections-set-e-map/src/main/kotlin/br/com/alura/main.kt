@@ -8,13 +8,16 @@ fun main() {
     assistiramAmbos.addAll(assistiramCursoAndroid)
     assistiramAmbos.addAll(assistiramCursoKotlin)
     assistiramAmbos.add("Walle")
-
     println(assistiramAmbos)
 
-//    assistiramAmbos.addAll(assistiramCursoAndroid)
-//    assistiramAmbos.addAll(assistiramCursoKotlin)
+    println(assistiramCursoAndroid union assistiramCursoKotlin)
+    println(assistiramCursoAndroid subtract assistiramCursoKotlin)
+    println(assistiramCursoAndroid intersect assistiramCursoKotlin)
 
-//    println(assistiramAmbos.distinct())
+    val assistiramList: MutableList<String> = assistiramAmbos.toMutableList()
+    assistiramList.add("Thais")
+    println("assistiramList: ${assistiramList}")
+    println("assistiramList - Set: ${assistiramList.toSet()}")
 }
 
 
