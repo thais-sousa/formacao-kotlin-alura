@@ -7,6 +7,11 @@ fun main() {
         2 to 10.0,
         3 to 25.0
     )
+    testaMap(pedidos)
+
+}
+
+fun testaMap(pedidos: MutableMap<Int, Double>) {
     println(pedidos)
 
     val pedido = pedidos[1]
@@ -29,7 +34,6 @@ fun main() {
     pedidos.remove(6)
     pedidos.remove(5, 100.0)
     println(pedidos)
-
 }
 
 
