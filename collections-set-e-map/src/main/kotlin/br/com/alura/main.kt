@@ -4,11 +4,56 @@ fun main() {
 //  mapOf(Pair(1, 20.0), Pair(2, 34.0), 3 to 50.0)
     val pedidos: MutableMap<Int, Double> = mutableMapOf(
         1 to 20.0,
-        2 to 10.0,
-        3 to 25.0
+        2 to 70.0,
+        3 to 50.0,
+        4 to 100.0,
+        5 to 150.0,
+        6 to 80.0
     )
-    testaMap(pedidos)
 
+//    val valorPedido: Double?  pedidos.get(5)
+//    val valorPedido = pedidos.getValue(5)
+//    println(valorPedido)
+
+    //getOrElse
+    val mensagem = pedidos.getOrElse(0, {
+        "Pedido inexistente"
+    })
+    println(mensagem)
+
+    //getOrDefault
+    val default = pedidos.getOrDefault(0, -1.0)
+    println(default)
+
+    //acessando chaves e valores
+    println(pedidos.keys)
+
+    for (numero in pedidos.keys) {
+        println("Pedido ${numero}")
+    }
+
+    println(pedidos.values)
+
+    for (valor in pedidos.values) {
+        println("Valor do pedido: ${valor}")
+    }
+
+    //filtering
+    val pedidosFiltrados = pedidos.filter { (numero, valor) ->
+        numero % 2 == 0 && valor > 50
+    }
+
+    println("Pedidos filtrados: ${pedidosFiltrados}")
+
+    val pedidosAcima = pedidos.filterValues { valor ->
+        valor > 70.0
+    }
+    println("Valores Filtrados: ${pedidosAcima}")
+
+    val pedidosPares = pedidos.filterKeys { numero ->
+        numero % 2 == 0
+    }
+    println("Números Filtrados: ${pedidosPares}")
 }
 
 fun testaMap(pedidos: MutableMap<Int, Double>) {
