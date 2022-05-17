@@ -7,7 +7,7 @@ fun main() {
         2 to 70.0,
         3 to 50.0,
         4 to 100.0,
-        5 to 150.0,
+        5 to 100.0,
         6 to 80.0
     )
 
@@ -54,6 +54,29 @@ fun main() {
         numero % 2 == 0
     }
     println("Números Filtrados: ${pedidosPares}")
+
+
+    //plus and minus operators
+//    println(pedidos + Pair(7, 90.0))
+    println(pedidos + mapOf(7 to 90.0, 8 to 20.0, 9 to 50.0))
+    println("MapOf ${pedidos}")
+
+    println(pedidos - 6)
+    println(pedidos)
+    println(pedidos - listOf(2, 3))
+
+    pedidos.putAll(setOf(7 to 90.0, 8 to 20.0, 9 to 50.0))
+    println("PutAll ${pedidos}")
+
+    //Remoção por chave
+    pedidos.keys.remove(1)
+    println("Remoção por chave: ${pedidos}")
+
+    //Remoção por valor
+    pedidos.values.remove(50.0)
+    println("Remoção por valor: ${pedidos}")
+
+
 }
 
 fun testaMap(pedidos: MutableMap<Int, Double>) {
@@ -79,6 +102,8 @@ fun testaMap(pedidos: MutableMap<Int, Double>) {
     pedidos.remove(6)
     pedidos.remove(5, 100.0)
     println(pedidos)
+
+
 }
 
 
